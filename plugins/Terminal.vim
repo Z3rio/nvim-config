@@ -7,7 +7,7 @@ tnoremap <Esc> <C-\><C-n>
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 " open terminal on ctrl+n
 function! OpenTerminal()
-  split term://bash
-  resize 10
+  split
+  ter
 endfunction
 nnoremap <c-n> :call OpenTerminal()<CR>
