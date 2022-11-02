@@ -14,5 +14,7 @@
     "javascriptreact",
     "typescript.tsx"
   ],
-  "coc.preferences.diagnostic.virtualText": true
+  "coc.preferences.diagnostic.virtualText": true,
+
+  "volar.takeOverMode.enabled": true
 }

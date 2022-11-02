@@ -1,6 +1,6 @@
 if (has("termguicolors"))
-    set termguicolors
-  endif
+  set termguicolors
+endif
   
-  syntax enable
-  colorscheme dracula
+syntax enable
+colorscheme dracula
