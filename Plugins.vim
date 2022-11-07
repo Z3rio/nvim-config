@@ -39,14 +39,19 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     " Misc
     Plug 'alvan/vim-closetag'
     Plug 'scrooloose/nerdcommenter'
-    Plug 'airblade/vim-gitgutter'
     Plug 'andweeb/presence.nvim'
     Plug 'tpope/vim-commentary'
     Plug 'neovim/nvim-lspconfig'
     Plug 'thaerkh/vim-indentguides'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'jghauser/mkdir.nvim'
+    Plug 'nvim-lua/plenary.nvim'
     "  Plug 'Pocco81/auto-save.nvim'
+    
+    " Git
+    Plug 'sindrets/diffview.nvim'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'TimUntersberger/neogit'
 
     " Regex explainer
     Plug 'bennypowers/nvim-regexplainer'
