@@ -49,3 +49,5 @@ nnoremap <silent>    <A-7> <Cmd>BufferGoto 7<CR>
 nnoremap <silent>    <A-8> <Cmd>BufferGoto 8<CR>
 nnoremap <silent>    <A-9> <Cmd>BufferGoto 9<CR>
 nnoremap <silent>    <A-0> <Cmd>BufferLast<CR>
+
+inoremap <C-Del> <C-o>dw

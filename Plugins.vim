@@ -3,8 +3,6 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     
     " File Explore
-    "  Plug 'scrooloose/NERDTree'
-    "  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'nvim-tree/nvim-tree.lua'
     
     " Auto pairs for '(' '[' '{'
@@ -15,9 +13,10 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'xiyaowong/nvim-transparent'
 
     " File Searching
+    Plug 'dyng/ctrlsf.vim'
     Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
     Plug 'junegunn/fzf.vim'
-
+    
     " Language client
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
@@ -46,7 +45,6 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'jghauser/mkdir.nvim'
     Plug 'nvim-lua/plenary.nvim'
-    "  Plug 'Pocco81/auto-save.nvim'
     
     " Git
     Plug 'sindrets/diffview.nvim'
