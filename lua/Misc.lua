@@ -53,10 +53,6 @@ ccc.setup({
 
 -- BARBAR
 local map = vim.api.nvim_set_keymap
-local opts = {
-    noremap = true,
-    silent = true
-}
 
 vim.keymap.set("i", "jk", "<ESC>", {
     noremap = true,
