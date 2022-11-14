@@ -29,3 +29,5 @@ source C:/Users/Zerio/AppData/Local/nvim/plugins/Themes.vim
 "  source C:/Users/Zerio/AppData/Local/nvim/lua/FileExplorer.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/SideBar.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/Misc.lua
+
+" :ALEToggle

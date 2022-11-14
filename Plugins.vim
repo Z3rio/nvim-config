@@ -23,6 +23,13 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     " Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
+
+    " Go-lang
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+    " C#
+    Plug 'Omnisharp/omnisharp-vim'
+    Plug 'dense-analysis/ale'
     
     " Nav, Sidebar etc
     Plug 'sidebar-nvim/sidebar.nvim'
@@ -44,6 +51,7 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'thaerkh/vim-indentguides'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'jghauser/mkdir.nvim'
+    Plug 'valloric/MatchTagAlways'
     Plug 'nvim-lua/plenary.nvim'
     
     " Git
@@ -53,7 +61,7 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
 
     " Regex explainer
     Plug 'bennypowers/nvim-regexplainer'
-    Plug 'MunifTanjim/nui.nvim',
+    Plug 'MunifTanjim/nui.nvim'
 
     " Color Picker
     Plug 'NvChad/nvim-colorizer.lua'
