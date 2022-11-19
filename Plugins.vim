@@ -71,9 +71,6 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'nvim-tree/nvim-web-devicons'
 
-    " Startup
-    Plug 'echasnovski/mini.nvim'
-
     " Github Copilot
     Plug 'github/copilot.vim'
 call plug#end()

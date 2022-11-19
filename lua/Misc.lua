@@ -9,8 +9,6 @@ require"transparent".setup({
 })
 
 require'colorizer'.setup()
-require'navigator'.setup()
-require'mini.starter'.setup()
 
 -- regex
 require'regexplainer'.setup {
