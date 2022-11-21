@@ -20,6 +20,7 @@ autocmd BufWritePre <buffer> lua vim.lsp.buf.format()
 source C:/Users/Zerio/AppData/Local/nvim/plugins/Terminal.vim
 source C:/Users/Zerio/AppData/Local/nvim/plugins/Keybinds.vim
 source C:/Users/Zerio/AppData/Local/nvim/plugins/Themes.vim
+source C:/Users/Zerio/AppData/Local/nvim/plugins/Formatting.vim
 
 "  source C:/Users/Zerio/AppData/Local/nvim/lua/FileExplorer.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/SideBar.lua

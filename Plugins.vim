@@ -19,7 +19,12 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     
     " Language client
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    
+    Plug 'prettier/vim-prettier', {
+    \ 'do': 'yarn install --frozen-lockfile --production',
+    \ 'branch': 'release/0.x'
+    \ }
+    Plug 'sbdchd/neoformat'
+
     " Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
