@@ -19,10 +19,10 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     
     " Language client
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'prettier/vim-prettier', {
-    \ 'do': 'yarn install --frozen-lockfile --production',
-    \ 'branch': 'release/0.x'
-    \ }
+    "  Plug 'prettier/vim-prettier', {
+    "  \ 'do': 'yarn install --frozen-lockfile --production',
+    "  \ 'branch': 'release/0.x'
+    "  \ }
     Plug 'sbdchd/neoformat'
 
     " Typescript
@@ -34,8 +34,8 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
 
     " C#
     Plug 'Omnisharp/omnisharp-vim'
-    Plug 'dense-analysis/ale'
-    
+    "  Plug 'w0rp/ale'
+
     " Nav, Sidebar etc
     Plug 'sidebar-nvim/sidebar.nvim'
     Plug 'romgrk/barbar.nvim'
@@ -58,7 +58,18 @@ call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'jghauser/mkdir.nvim'
     Plug 'valloric/MatchTagAlways'
     Plug 'nvim-lua/plenary.nvim'
+
+    " CMP
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/cmp-path'
+    Plug 'hrsh7th/cmp-cmdline'
+    Plug 'hrsh7th/nvim-cmp'
     
+    " Snippets
+    Plug 'dcampos/nvim-snippy'
+    Plug 'dcampos/cmp-snippy'
+
     " Git
     Plug 'sindrets/diffview.nvim'
     Plug 'airblade/vim-gitgutter'

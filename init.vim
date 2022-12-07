@@ -9,6 +9,10 @@ source C:/Users/Zerio/AppData/Local/nvim/Plugins.vim
 " Settings
 set number
 set autoindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set completeopt=menu,menuone,noselect
 
 " Indent Guides
 let g:indentguides_spacechar = '┆'
@@ -27,3 +31,4 @@ source C:/Users/Zerio/AppData/Local/nvim/lua/SideBar.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/Misc.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/Functions.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/COC.lua
+source C:/Users/Zerio/AppData/Local/nvim/lua/CMP_Setup.lua
