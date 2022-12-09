@@ -1,9 +1,3 @@
-local mapping = require('mapx').setup {
-  whichkey = true,
-  enableCountArg = false,
-  debug = vim.g.mapxDebug or false,
-}
-
 -- open new split panes to right and below
 vim.cmd([[
 set splitright

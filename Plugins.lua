@@ -66,8 +66,6 @@ vim.call("plug#begin", 'C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
     Plug 'alvan/vim-closetag'
     Plug 'scrooloose/nerdcommenter'
     Plug 'andweeb/presence.nvim'
-    Plug 'folke/which-key.nvim'
-    Plug 'b0o/mapx.nvim'
     Plug 'tpope/vim-commentary'
     Plug 'neovim/nvim-lspconfig'
     Plug 'thaerkh/vim-indentguides'
