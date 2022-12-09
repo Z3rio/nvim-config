@@ -29,10 +29,10 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 
 vim.cmd([[
-source ~/AppData/Local/nvim/plugins/Terminal.vim
 source ~/AppData/Local/nvim/plugins/Keybinds.vim
 
 "  source ~/AppData/Local/nvim/lua/FileExplorer.lua
+source ~/AppData/Local/nvim/lua/Terminal.lua
 source ~/AppData/Local/nvim/lua/Themes.lua
 source ~/AppData/Local/nvim/lua/Formatting.lua
 source ~/AppData/Local/nvim/lua/SideBar.lua
