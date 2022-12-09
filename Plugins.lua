@@ -1,92 +1,109 @@
-call plug#begin('C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
-    " Better Syntax Support
+local Plug = vim.fn['plug#']
+
+vim.call("plug#begin", 'C:/Users/Zerio/AppData/Local/nvim/autoload/plugged')
+    -- Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     
-    " File Explore
+    -- File Explore
     Plug 'nvim-tree/nvim-tree.lua'
     
-    " Auto pairs for '(' '[' '{'
+    -- Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     
-    " Theme
+    -- Theme
     Plug 'dracula/vim'
     Plug 'xiyaowong/nvim-transparent'
 
-    " File Searching
+    -- File Searching
     Plug 'dyng/ctrlsf.vim'
-    Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+    Plug('junegunn/fzf', { 
+        ["dir"] = '~/.fzf',
+        ["do"] = './install --all' 
+    })
     Plug 'junegunn/fzf.vim'
     
-    " Language client
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    "  Plug 'prettier/vim-prettier', {
-    "  \ 'do': 'yarn install --frozen-lockfile --production',
-    "  \ 'branch': 'release/0.x'
-    "  \ }
+    -- Language client
+    Plug('neoclide/coc.nvim', {
+        ["branch"] = 'release'
+    })
+    --  Plug 'prettier/vim-prettier', {
+    --  \ 'do': 'yarn install --frozen-lockfile --production',
+    --  \ 'branch': 'release/0.x'
+    --  \ }
     Plug 'sbdchd/neoformat'
 
-    " Typescript
+    -- Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'peitalin/vim-jsx-typescript'
 
-    " Go-lang
-    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+    -- Go-lang
+    Plug('fatih/vim-go', { 
+        ["do"] = ':GoUpdateBinaries' 
+    })
 
-    " C#
+    -- C#
     Plug 'Omnisharp/omnisharp-vim'
-    "  Plug 'w0rp/ale'
+    --  Plug 'w0rp/ale'
 
-    " Nav, Sidebar etc
+    -- Nav, Sidebar etc
     Plug 'sidebar-nvim/sidebar.nvim'
     Plug 'romgrk/barbar.nvim'
     Plug 'vim-airline/vim-airline'
-    Plug 'ray-x/guihua.lua', {'do': 'cd lua/fzy && make' }
+    Plug('ray-x/guihua.lua', {
+        ['do'] = 'cd lua/fzy && make' 
+    })
     Plug 'ray-x/navigator.lua'
 
-    " Vue
-    Plug 'yaegassy/coc-volar', {'do': 'yarn install --frozen-lockfile'}
-    Plug 'yaegassy/coc-volar-tools', {'do': 'yarn install --frozen-lockfile'}
+    -- Vue
+    Plug('yaegassy/coc-volar', {
+        ['do'] = 'yarn install --frozen-lockfile'
+    })
+    Plug('yaegassy/coc-volar-tools', {
+        ['do'] = 'yarn install --frozen-lockfile'
+    })
 
-    " Misc
+    -- Misc
     Plug 'alvan/vim-closetag'
     Plug 'scrooloose/nerdcommenter'
     Plug 'andweeb/presence.nvim'
     Plug 'tpope/vim-commentary'
     Plug 'neovim/nvim-lspconfig'
     Plug 'thaerkh/vim-indentguides'
-    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug('nvim-treesitter/nvim-treesitter', {
+        ['do'] = ':TSUpdate'
+    })
     Plug 'jghauser/mkdir.nvim'
     Plug 'valloric/MatchTagAlways'
     Plug 'nvim-lua/plenary.nvim'
 
-    " CMP
+    -- CMP
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
     Plug 'hrsh7th/cmp-path'
     Plug 'hrsh7th/cmp-cmdline'
     Plug 'hrsh7th/nvim-cmp'
     
-    " Snippets
+    -- Snippets
     Plug 'dcampos/nvim-snippy'
     Plug 'dcampos/cmp-snippy'
 
-    " Git
+    -- Git
     Plug 'sindrets/diffview.nvim'
     Plug 'airblade/vim-gitgutter'
     Plug 'TimUntersberger/neogit'
 
-    " Regex explainer
+    -- Regex explainer
     Plug 'bennypowers/nvim-regexplainer'
     Plug 'MunifTanjim/nui.nvim'
 
-    " Color Picker
+    -- Color Picker
     Plug 'NvChad/nvim-colorizer.lua'
     Plug 'uga-rosa/ccc.nvim'
 
-    " Icons
+    -- Icons
     Plug 'ryanoasis/vim-devicons'
     Plug 'nvim-tree/nvim-web-devicons'
 
-    " Github Copilot
+    -- Github Copilot
     Plug 'github/copilot.vim'
-call plug#end()
+vim.call("plug#end")
