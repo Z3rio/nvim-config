@@ -31,10 +31,10 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 vim.cmd([[
 source C:/Users/Zerio/AppData/Local/nvim/plugins/Terminal.vim
 source C:/Users/Zerio/AppData/Local/nvim/plugins/Keybinds.vim
-source C:/Users/Zerio/AppData/Local/nvim/plugins/Themes.vim
-source C:/Users/Zerio/AppData/Local/nvim/plugins/Formatting.vim
 
 "  source C:/Users/Zerio/AppData/Local/nvim/lua/FileExplorer.lua
+source C:/Users/Zerio/AppData/Local/nvim/plugins/Themes.lua
+source C:/Users/Zerio/AppData/Local/nvim/plugins/Formatting.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/SideBar.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/Misc.lua
 source C:/Users/Zerio/AppData/Local/nvim/lua/Functions.lua
