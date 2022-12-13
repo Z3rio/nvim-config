@@ -15,6 +15,8 @@ set expandtab
 set completeopt=menu,menuone,noselect
 ]])
 
+vim.api.nvim_set_option("clipboard","unnamed")
+
 -- Indent Guides
 vim.g.indentguides_spacechar = '┆'
 vim.g.indentguides_tabchar = '|'
